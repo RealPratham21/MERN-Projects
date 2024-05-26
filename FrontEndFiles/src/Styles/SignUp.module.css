@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent{
+    background-image: url("https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95bd34713.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+.LoginBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0px 0px 15px gray;
+    border-radius: 12px;
+    width: 750px;
+    height: 425px;
+    backdrop-filter: blur(5px);
+    margin-top: 120px;
+}
+.LoginAbout{
+    background-color: hsl(261, 56%, 19%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.info{
+    padding: 0px 20px;
+}
+.LoginComponents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.instruction{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.heading{
+    font-size: 2em;
+    font-weight: bold;
+    color: hsl(240, 81%, 11%);
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+.forms > *{
+    margin-top: 20px;
+    border: none;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px gainsboro;
+    width: 300px;
+    height: 30px;
+}
+.btn{
+    border: none;
+    background-color: blueviolet;
+    font-size: 1.5em;
+    width: 300px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.25s all ease-in-out;
+}
+.btn:hover{
+    background-color: rgb(150, 67, 228);
+}

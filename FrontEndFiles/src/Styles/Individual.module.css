@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.path{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: hsla(34, 57%, 70%, 0.685);
+    color: hsl(34, 27%, 35%);
+    font-size: 2em;
+    font-weight: bold;
+    padding: 30px;
+    padding-left: 200px;
+}
+.backBtn{
+    display: flex;
+    width: 100%;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.backBtn > *{
+    border: none;
+    background-color: hsl(120, 28%, 45%);
+    border-radius: 4px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    padding: 4px 8px;
+    cursor: pointer;
+    transition: 0.25s all ease-in-out;
+}
+.backBtn Link{
+    color: white;
+}
+.backBtn > button{
+    background-color: hsl(120, 31%, 18%);
+}
+.productInfo{
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    padding: 50px;
+}
+.productImage{
+    width: 100%;
+    height: auto;
+}
+.productDetail{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.productDetail > *{
+    margin-top: 20px;
+}
+.productName{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: hsl(240, 63%, 13%);
+}
+.Ratings{
+    color: hsl(0, 100%, 50%);
+    font-size: 1.25em;
+}
+.productPrice{
+    color: hsl(120, 28%, 45%);
+    font-weight: 500;
+    font-size: 2em;
+    letter-spacing: 1.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.productCategory{
+    color: blueviolet;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.productDesc{
+    color: hsl(0, 0%, 18%);
+    letter-spacing: 1.15px;
+    line-height: 1.5em;
+}
+.quantity{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.quantity > *{
+    margin-left: 20px;
+}
+.quantity button{
+    border: none;
+    font-size: 2em;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+.count{
+    font-size: 2.25em;
+    font-weight: bold;
+}
+.CartBtn{
+    border: none;
+    background-color: hsl(120, 25%, 40%);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 1.5em;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.25s all ease-in-out;
+}
+.CartBtn:hover{
+    background-color: hsl(120, 25%, 21%);
+    text-shadow: 0px 0px 10px whitesmoke;
+}

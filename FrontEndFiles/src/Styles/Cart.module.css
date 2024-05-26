@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.path{
+    display: flex;
+    width: 100%;
+    background-color: hsla(33, 49%, 72%, 0.877);
+    color: hsl(34, 26%, 29%);
+    font-size: 2.15em;
+    font-weight: bold;
+    padding: 40px;
+    padding-left: 150px;
+}
+.cart{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.items > *{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    font-size: 1.5em;
+    font-weight: 500;
+    height: 200px;
+    align-items: center;
+}
+.headings{
+    font-size: 2em;
+    height: 80px;
+    font-weight: bold;
+    background-color: #efefef;
+    border-radius: 8px;
+}
+.productImage{
+    width: 150px;
+    height: 150px;
+}
+.product{
+    margin-top: 30px;
+}
+.billBox{
+    display: flex;
+    padding: 20px;
+    border: 1px solid rgb(76, 76, 228);
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.billing{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.totalPrice{
+    padding: 8px 12px;
+    font-size: 1.25em;
+    border-top: 2px solid black;
+    margin-top: 15px;
+}
+.cartOps{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-top: 40px;
+}
+.clearCart{
+    padding: 5px 10px;
+    border: none;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border-radius: 5px;
+    transition: 0.35s all ease-in-out;
+    cursor: pointer;
+}
+.clearCart:hover{
+    background-color: hsl(0, 0%, 31%);
+    text-shadow: 0px 0px 10px whitesmoke;
+}
+.EmptyCart{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 2em;
+    font-weight: 500;
+}

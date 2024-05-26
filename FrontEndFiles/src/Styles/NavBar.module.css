@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px gainsboro;
+}
+.logo{
+    width: 100px;
+}
+.pages{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.25em;
+    font-weight: 400;
+    color: hsl(240, 74%, 10%);
+}
+.pages > *{
+    padding: 2px 20px;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+.pages > *:hover{
+    border-bottom: 2px solid green;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.75em;
+    font-weight: 500;
+}
+.login > *{
+    padding: 2px 8px;
+    cursor: pointer;
+}
